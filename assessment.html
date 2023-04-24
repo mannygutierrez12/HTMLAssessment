@@ -13,24 +13,34 @@
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		
-		<p style="margin-left: 40px;"><strong><em>Ipsum</em></strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	
+	<p style="margin-left: 40px;"><strong><em>Ipsum</em></strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-		
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+	
 
 
-		<p><strong><em>Ipsum2</em></strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	<p><strong><em>Ipsum2</em></strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 
-		<hr>
+	<hr>
+
+
+
+
+	<div style="text-align: center;">
 		
 		<h1>TABLE</h1>
 
 		<style>
+
+
+
+
+
 			table {
 				border-collapse: collapse;
 				border-spacing: 0;
@@ -43,7 +53,7 @@
 			}
 		</style>
 		
-		<table id="score-table">
+		<table table id="score-table" style="margin: 0 auto;">
 			<caption>Score by quarter</caption>
 			<thead>
 				<tr>
@@ -89,92 +99,125 @@
 				</tfoot>
 			</tbody>
 		</table>
-		
-		<hr>
-		
 
 
-		<h1>LIST</h1>
 
-		<ul>
-			<li>
-				<img src="Denver-broncos-Logo.png" height="100" width="100" alt="picture of broncos">
-				<br>
-				<a href="https://www.denverbroncos.com/">Denver Broncos</a>
-				<ul>
-					<li>Coach: Gary Kubiak</li>
-					<li>QB</li>
-					<ol>
-						<li>Brock Osweiler</li>
-						<li>Trevor Siemian</li>
-						<li>Peyton Manning (injured)</li>
-					</ol>
-				</ul>
-			</li>
-		</ul>
-	
-		<br>
-		
-		<ul>
-			<li>
-				<img src="Chicago_Bears_logo.svg.png" height="80" width="80" alt="picture of chicago cubs">
-				<br>
-				<a href="https://www.chicagobears.com/">Chicago Bears</a>
-				<ul>
-					<li>Coach: Gary Kubiak</li>
-					<li>QB</li>
-					<ol>
-						<li>Jay Cutler</li>
-						<li>David Foles</li>
-					</ol>
-				</ul>
-			</li>
-		</ul>
-	
-		<hr>
 
-		<h1>FORM</h1>
+	</div>
 	
-		<form>
 	
+	
+	<hr>
+	
+
+
+	<h1>LIST</h1>
+
+	<ul>
+		<li>
+			<img src="Denver-broncos-Logo.png" height="100" width="100" alt="picture of broncos">
+			<br>
+			<a href="https://www.denverbroncos.com/">Denver Broncos</a>
+			<ul>
+				<li>Coach: Gary Kubiak</li>
+				<li>QB</li>
+				<ol>
+					<li>Brock Osweiler</li>
+					<li>Trevor Siemian</li>
+					<li>Peyton Manning (injured)</li>
+				</ol>
+			</ul>
+		</li>
+	</ul>
+	
+	<br>
+	
+	<ul>
+		<li>
+			<img src="Chicago_Bears_logo.svg.png" height="80" width="80" alt="picture of chicago cubs">
+			<br>
+			<a href="https://www.chicagobears.com/">Chicago Bears</a>
+			<ul>
+				<li>Coach: Gary Kubiak</li>
+				<li>QB</li>
+				<ol>
+					<li>Jay Cutler</li>
+					<li>David Foles</li>
+				</ol>
+			</ul>
+		</li>
+	</ul>
+	
+	<hr>
+
+	<h1 style="text-align: center;">FORM</h1>
+	
+	<form>
+
+		<fieldset>
+			<legend>Personal information:</legend>
 			<label>First:</label>
 			<input type="text" placeholder="Bob">
 			<label>Last:</label>
 			<input type="text" placeholder="Dobbs">
-			<br>
-	
-			<label for="cars">Favorite sport:</label>
-			<br>
+
+
+		</fieldset>
+		
+		
+		
+		
+
+		<fieldset>
+			<legend>Favorite sport:</legend>
+
+
 			<select name="cars" id="cars">
 				<option value="soccer">Soccer</option>
 				<option value="basketball">Basketball</option>
 				<option value="baseball">Baseball</option>
 				<option value="golf">Golf</option>
 			</select>
-	
-			<br>
+
 			<label>I have:</label>
 			<label><input type="checkbox" checked>Attended</label>
-			<label><input type="checkbox" checked>Played</label>
-			<label><input type="checkbox" checked>Coached</label>
+			<label><input type="checkbox">Played</label>
+			<label><input type="checkbox">Coached</label>
 			<label><input type="checkbox">Bet on</label>
-			<br>
 
+
+
+		</fieldset>
+		
+		
+		<fieldset>
+			<legend>Choose your favorite:</legend>
 			<label for="radio">For this sport, I prefer:</label>
 			<label><input type="radio" id="radio" name="sport" checked>Amateur</label>
 			<label><input type="radio" id="radio" name="sport">College</label>
 			<label><input type="radio" id="radio" name="sport">Professional</label>
-			<br>
+
+
+
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Contact Us:</legend>
 			<label>Please add any other information</label>
 			<br>
 			<textarea></textarea>
 			<br>
 			<button>Submit Query</button>
 			<input type="reset" name="">
-	
-		</form>
-	
-	</body>
-	</html>
 
+
+		</fieldset>
+		
+		
+		
+	</form>
 	
+</body>
+</html>
+
